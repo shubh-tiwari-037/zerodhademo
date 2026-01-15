@@ -23,7 +23,7 @@ const uri= process.env.MONGO_URL;
 const app = express()
 
 app.use(cors({
-  origin:"http://localhost:3000",
+  origin:"https://zerodha-jm9f.onrender.com",
   credentials: true
 }));
 
