@@ -3,7 +3,7 @@ import { useMutation } from "@tanstack/react-query";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const API_URL = "http://localhost:8080"; // backend url
+const API_URL = "https://zerodhabackend-6u2j.onrender.com"; // backend url
 
 const UserApi = async (userData) => {
   const response = await axios.post(`${API_URL}/signup`, userData);
